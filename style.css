@@ -17,6 +17,13 @@
 transform: scale(1.2);
 -ms-transform: scale(1.2);
 -webkit-transform: scale(1.2);
+transition:transform 0.7s, -webkit-transform 0.7s;
+transition:transform 0.7s;
+
+
+-webkit-transition: -webkit-transform 0.7s;
+transition: -webkit-transform 0.7s;
+-o-transition: transform 0.7s;
 }
 
 div {
