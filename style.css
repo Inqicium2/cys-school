@@ -18,7 +18,10 @@ transform: scale(1.2);
 -ms-transform: scale(1.2);
 -webkit-transform: scale(1.2);
 }
+.photo{
+overflow:hidden;
 
+}
 .photo img{
 transition:transform(0.7s);
 }
